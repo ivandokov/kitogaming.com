@@ -15,7 +15,10 @@ module.exports = {
                     '950': '#250101',
                     '950-50': 'rgba(37,1,1,.5)',
                 },
-                discord: '#7289da'
+                discord: '#7289da',
+                facebook: '#4267b2',
+                instagram: '#d62976',
+                youtube: '#f00',
             }
         },
     },
