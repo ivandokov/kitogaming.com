@@ -54,5 +54,8 @@ export default {
     router: {
         linkActiveClass: 'text-red-700',
         linkExactActiveClass: 'text-red-700'
-    }
+    },
+    purgeCSS: {
+        whitelist: ['text-red-100', 'text-sans', 'text-red-700'],
+    },
 }
