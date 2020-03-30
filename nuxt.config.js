@@ -36,6 +36,7 @@ export default {
     */
     buildModules: [
         '@nuxtjs/tailwindcss',
+        '@nuxtjs/google-analytics',
     ],
     /*
     ** Nuxt.js modules
@@ -58,4 +59,11 @@ export default {
     purgeCSS: {
         whitelist: ['text-red-100', 'text-sans', 'text-red-700'],
     },
+    googleAnalytics: {
+        id: 'UA-29469126-9',
+        debug: {
+            enabled: false,
+            sendHitTask: false,
+        }
+    }
 }
