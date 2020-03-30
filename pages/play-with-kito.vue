@@ -40,3 +40,13 @@
         </div>
     </div>
 </template>
+
+<script>
+    export default {
+        head () {
+            return {
+                title: 'Играй с Кито',
+            }
+        }
+    }
+</script>

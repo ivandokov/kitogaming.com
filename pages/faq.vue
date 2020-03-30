@@ -73,6 +73,11 @@
         mounted() {
             const hash = window.location.hash.substr(1).replace(/-/g, '')
             this[hash] = true
+        },
+        head () {
+            return {
+                title: 'Често задавани въпроси',
+            }
         }
     }
 </script>

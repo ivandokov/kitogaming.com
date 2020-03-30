@@ -3,3 +3,13 @@
         <img class="rounded shadow-2xl" src="/week-16.jpg" alt="schedule">
     </div>
 </template>
+
+<script>
+    export default {
+        head () {
+            return {
+                title: 'Програма',
+            }
+        }
+    }
+</script>

@@ -3,3 +3,13 @@
         <img class="rounded shadow-2xl" src="/dota2-tournament-2020-03.jpg" alt="Dota 2 Bracket">
     </div>
 </template>
+
+<script>
+    export default {
+        head () {
+            return {
+                title: 'Dota 2 Турнир',
+            }
+        }
+    }
+</script>
