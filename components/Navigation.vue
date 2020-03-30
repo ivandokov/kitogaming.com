@@ -18,10 +18,13 @@
         </div>
         <div class="order-3 w-full sm:w-1/2 lg:w-1/3 flex justify-around items-center">
             <nuxt-link to="/faq" class="hover:text-red-700">
-                Често Задавани Въпроси
+                ЧЗВ
             </nuxt-link>
             <nuxt-link to="/dota2-tournament-2020-03" class="hover:text-red-700">
-                KitoGaming Tournament
+                Dota 2 Турнир
+            </nuxt-link>
+            <nuxt-link to="/friday-five-sharp" class="hover:text-red-700">
+                Петък точно в пет
             </nuxt-link>
         </div>
     </nav>
