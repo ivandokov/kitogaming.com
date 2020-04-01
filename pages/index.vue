@@ -8,7 +8,7 @@
         </div>
         <div class="flex flex-wrap justify-center">
             <div class="video-wrapper">
-                <iframe class="video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftodorov.kitodar%2Fvideos%2F219423479415267%2F&width=1520&height=928&show_text=false" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+                <iframe class="video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftodorov.kitodar%2Fvideos%2F224919501955679%2F&width=1520&height=928&show_text=false" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
             </div>
         </div>
     </div>
