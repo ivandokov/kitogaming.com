@@ -10,7 +10,7 @@
                     <a href="https://discord.gg/9RkPAZJ" target="_blank" class="px-8 py-4 bg-discord rounded uppercase">Влез в Discord</a>
                 </p>
                 <p>
-                    Нужно е да <nuxt-link to="/faq#discord-push-to-talk" class="text-red-500 hover:text-red-700">настроите бутон за Push-to-Talk</nuxt-link> за повечето канали в Discord.
+                    Нужно е да <nuxt-link :to="{path:'/faq', hash:'discord-push-to-talk'}" class="text-red-500 hover:text-red-700">настроите бутон за Push-to-Talk</nuxt-link> за повечето канали в Discord.
                 </p>
             </div>
             <div class="w-full lg:w-1/2 lg:pl-6">

@@ -3,7 +3,8 @@
         <div class="w-full lg:w-2/3 mx-auto">
             <h1 class="text-4xl mb-8">Често задавани въпроси</h1>
 
-            <FaqItem class="mb-10"
+            <FaqItem id="discord-push-to-talk"
+                     class="mb-10"
                      :open="discordpushtotalk"
                      question="Как да си настроя Push-to-Talk бутона в Discord">
                 <p class="mb-8">
@@ -13,7 +14,8 @@
                 <img src="/discord-2.jpg" alt="discord settings" class="rounded shadow-2xl">
             </FaqItem>
 
-            <FaqItem class="mb-10"
+            <FaqItem id="dota2id"
+                     class="mb-10"
                      :open="dota2id"
                      question="Как да намеря моето ID в Dota 2">
                 <p class="mb-8">
@@ -22,7 +24,8 @@
                 <img src="/dota2-id.jpg" alt="dota2-id" class="rounded shadow-2xl">
             </FaqItem>
 
-            <FaqItem class="mb-10"
+            <FaqItem id="dota2party-invite"
+                     class="mb-10"
                      :open="dota2partyinvite"
                      question="Как да махна блокирането да бъда поканен в партия от непознати играчи?">
                 <p class="mb-8">
@@ -33,7 +36,8 @@
                 <img src="/dota2-options-3.jpg" alt="dota2 party invite" class="rounded shadow-2xl">
             </FaqItem>
 
-            <FaqItem class="mb-10"
+            <FaqItem id="csgo-console"
+                     class="mb-10"
                      :open="csgoconsole"
                      question="Как да активирам конзолата в Counter-Strike: Global Offensive?">
                 <p class="mb-8">
@@ -42,7 +46,8 @@
                 <img src="/cs-enable-console.jpg" alt="cs enable console" class="rounded shadow-2xl">
             </FaqItem>
 
-            <FaqItem class="mb-10"
+            <FaqItem id="csgo-connect"
+                     class="mb-10"
                      :open="csgoconnect"
                      question="Как да се свържа с Counter-Strike: Global Offensive сървър?">
                 <p class="mb-8">

@@ -27,15 +27,15 @@
                 "Dota 2 Lobby" канала е за хора, които искат да иргаят с Кито и още 8 човека от стрийма в лоби.
                 "Dota 2 Начинаещи" канала е за начинаещи <span class="underline">само</span> когато се организират игри с начинаещи.<br>
                 Задължително подгответе Dota 2 ID-то си, защото ще Ви бъде искано от Кито.<br>
-                Можете да го видите като <nuxt-link to="/faq#dota2id" class="text-red-500 hover:text-red-700">влезете в играта, натиснете портрета си и видите ID-то си под името</nuxt-link>.
-                Задължително трябва да изключите опцията <nuxt-link to="/faq#dota2party-invite" class="text-red-500 hover:text-red-700">"Block party invites from non-friends"</nuxt-link>.
+                Можете да го видите като <nuxt-link :to="{path:'/faq', hash:'#dota2id'}" class="text-red-500 hover:text-red-700">влезете в играта, натиснете портрета си и видите ID-то си под името</nuxt-link>.
+                Задължително трябва да изключите опцията <nuxt-link :to="{path:'/faq', hash:'#dota2party-invite'}" class="text-red-500 hover:text-red-700">"Block party invites from non-friends"</nuxt-link>.
             </p>
 
             <h2 class="text-2xl mb-8">Правила за Counter-Strike: Global Offensive</h2>
             <p class="mb-8">
                 За да играете Counter-Strike: Global Offensive с Кито, влезте в Discord канала "CS:GO" и чакайте да бъдете разпределени в отбор. Според настроението на Кито, може да се играе Competitive (Кито и още четирима) или в частен сървър (всички на куп).<br>
-                Нужно е да включите конзолата от настройките. <nuxt-link to="/faq#csgo-console" class="text-red-500 hover:text-red-700">Кликнете зъбчатото колело в ляво и в раздел "Game" нагласете "Enable Developer Console (~)" на "Yes"</nuxt-link>.<br>
-                При наличен IP адрес на сървър във Facebook или Discord чатовете, <nuxt-link to="/faq#csgo-connect" class="text-red-500 hover:text-red-700">включете конзолата с бутона tilde (~) до "1" (под ESC) и напишете команда "connect" (без кавички) последвана от IP адреса</nuxt-link>.
+                Нужно е да включите конзолата от настройките. <nuxt-link :to="{path:'/faq', hash:'#csgo-console'}" class="text-red-500 hover:text-red-700">Кликнете зъбчатото колело в ляво и в раздел "Game" нагласете "Enable Developer Console (~)" на "Yes"</nuxt-link>.<br>
+                При наличен IP адрес на сървър във Facebook или Discord чатовете, <nuxt-link :to="{path:'/faq', hash:'#csgo-connect'}" class="text-red-500 hover:text-red-700">включете конзолата с бутона tilde (~) до "1" (под ESC) и напишете команда "connect" (без кавички) последвана от IP адреса</nuxt-link>.
             </p>
         </div>
     </div>
