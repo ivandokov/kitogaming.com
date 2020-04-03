@@ -27,7 +27,7 @@
             <FaqItem id="dota2party-invite"
                      :open="dota2partyinvite"
                      class="mb-10"
-                     question="Как да махна блокирането да бъда поканен в партия от непознати играчи?">
+                     question="Как да махна блокирането да бъда поканен в партия от непознати играчи">
                 <p class="mb-8">
                     За да можете да бъдете поканени от Кито, трябва да позволите покани от непознати хора. Това става когато натиснете зъбчатото колело в горния ляв ъгъл на играта, натиснете Options, Advanced Options и изключите "Block party invites from non-friends"
                 </p>
@@ -39,7 +39,7 @@
             <FaqItem id="csgo-console"
                      :open="csgoconsole"
                      class="mb-10"
-                     question="Как да активирам конзолата в Counter-Strike: Global Offensive?">
+                     question="Как да активирам конзолата в Counter-Strike: Global Offensive">
                 <p class="mb-8">
                     Кликнете зъбчатото колело в ляво и в раздел "Game" нагласете "Enable Developer Console (~)" на "Yes"
                 </p>
@@ -49,7 +49,7 @@
             <FaqItem id="csgo-connect"
                      :open="csgoconnect"
                      class="mb-10"
-                     question="Как да се свържа с Counter-Strike: Global Offensive сървър?">
+                     question="Как да се свържа с Counter-Strike: Global Offensive сървър">
                 <p class="mb-8">
                     Включете конзолата с бутона tilde (~) в ляво от 1 / под ESC и напишете команда "connect" (без кавички) последвана от IP адреса
                 </p>
