@@ -11,6 +11,9 @@
                 <iframe class="video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftodorov.kitodar%2Fvideos%2F225385155217193%2F&width=1520&height=928&show_text=false" width="500" height="280" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
             </div>
         </div>
+        <div class="flex flex-wrap justify-center opacity-50 mt-12">
+            kitogaming.com е фен сайт на KitoGaming и Китодар Тодоров и не е притежаван или управляван от KitoGaming
+        </div>
     </div>
 </template>
 
