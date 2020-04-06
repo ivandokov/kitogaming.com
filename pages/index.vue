@@ -32,7 +32,7 @@
         },
         computed: {
             src() {
-                return `https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftodorov.kitodar%2Fvideos%2F${this.videoId}%2F&width=1520&height=928&show_text=false`
+                return `https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Ftodorov.kitodar%2Fvideos%2F${this.videoId}%2F&width=1520&height=860&show_text=false`
             }
         }
     }
