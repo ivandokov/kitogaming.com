@@ -36,6 +36,18 @@
                 <img src="/dota2-options-3.jpg" alt="dota2 party invite" class="rounded shadow-2xl">
             </FaqItem>
 
+            <FaqItem id="dota2lobby"
+                     :open="dota2lobby"
+                     class="mb-10"
+                     question="Как да намеря лобито на KitoGaming">
+                <p class="mb-8">
+                    За да играете в лоби с Кито, изчакайте да бъдете разпределени и да дойде реда Ви. Кито ще влезе в канала Ви и ще каже паролата за лобито. За да влезете в него, в Dota 2 натискате Play бутона, натиснете Browse и потърсете "kito" (без кавичките). След това влезте в лобито с дадената парола.
+                </p>
+                <img src="/dota2-lobby-1.jpg" alt="dota2 lobby" class="rounded shadow-2xl mb-4">
+                <img src="/dota2-lobby-2.jpg" alt="dota2 lobby" class="rounded shadow-2xl mb-4">
+                <img src="/dota2-lobby-3.jpg" alt="dota2 lobby" class="rounded shadow-2xl">
+            </FaqItem>
+
             <FaqItem id="csgo-console"
                      :open="csgoconsole"
                      class="mb-10"
@@ -80,6 +92,7 @@
                 discordpushtotalk: false,
                 dota2id: false,
                 dota2partyinvite: false,
+                dota2lobby: false,
                 csgoconsole: false,
                 csgoconnect: false,
                 suggestgame: false,
