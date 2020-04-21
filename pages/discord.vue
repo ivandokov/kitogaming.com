@@ -7,7 +7,7 @@
                     За голяма част от игрите в KitoGaming се използва Discord. За да се присъедините към KitoGaming в Discord трябва да натиснете бутона и да следвате стъпките. Препоръчително е да използвате Discord приложението за компютър, но можете да използвате и мобилните приложения.
                 </p>
                 <p class="mb-8">
-                    <a href="https://discord.gg/9RkPAZJ" target="_blank" class="px-8 py-4 bg-discord rounded uppercase">Влез в Discord</a>
+                    <a href="https://discord.gg/HKEkFtE" target="_blank" class="px-8 py-4 bg-discord rounded uppercase">Влез в Discord</a>
                 </p>
                 <p>
                     Нужно е да <nuxt-link :to="{path:'/faq', hash:'discord-push-to-talk'}" class="text-red-500 hover:text-red-700">настроите бутон за Push-to-Talk</nuxt-link> за повечето канали в Discord.
