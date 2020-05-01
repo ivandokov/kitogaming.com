@@ -26,6 +26,7 @@
             Footer,
         },
         mounted() {
+            // https://gist.github.com/idettman/2e13da29aea4b3f4063078624054b3bd
             let camera, scene, renderer, geometry, material, mesh, clock, cubeSineDriver, light, smokeMaterial,
                 smokeGeo,
                 smokeParticles, delta
