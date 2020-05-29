@@ -10,6 +10,9 @@
             <nuxt-link to="/discord" class="hover:text-red-700">
                 Discord
             </nuxt-link>
+            <nuxt-link to="/faq" class="hover:text-red-700">
+                ЧЗВ
+            </nuxt-link>
         </div>
         <div class="order-1 lg:order-2 lg:order-2 w-full lg:w-1/3 flex justify-center items-center px-4 mb-4 lg:mb-0">
             <nuxt-link to="/">
@@ -17,11 +20,11 @@
             </nuxt-link>
         </div>
         <div class="order-3 w-full sm:w-1/2 lg:w-1/3 flex justify-around items-center">
-            <nuxt-link to="/faq" class="hover:text-red-700">
-                ЧЗВ
-            </nuxt-link>
             <nuxt-link to="/dota2-tournament-2020-03" class="hover:text-red-700">
                 Dota 2 Турнир
+            </nuxt-link>
+            <nuxt-link to="/a-day-in-life-of" class="hover:text-red-700">
+                A day in life of
             </nuxt-link>
             <nuxt-link to="/friday-five-sharp" class="hover:text-red-700">
                 Петък точно в пет

@@ -1,7 +1,7 @@
 <template>
     <div class="container px-3 my-12">
-        <div class="flex justify-between items-center">
-            <h1 class="text-4xl mb-8">Петък точно в пет</h1>
+        <div class="flex justify-between items-center mb-8">
+            <h1 class="text-4xl">Петък точно в пет</h1>
 
             <a href="https://www.youtube.com/channel/UC7zoD0ohq5Y3TaUW6hnqF4g" target="_blank" class="px-8 py-4 bg-youtube rounded uppercase">YouTube</a>
         </div>
