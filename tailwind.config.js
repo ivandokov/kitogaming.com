@@ -1,14 +1,14 @@
-const { colors } = require('tailwindcss/defaultTheme')
+/** @type {import('tailwindcss').Config} */
+const {colors, fontFamily} = require('tailwindcss/defaultTheme')
+
 
 module.exports = {
+    content: ["./*.{html,js}"],
     theme: {
-        container: {
-            center: true,
-        },
-        fontFamily: {
-            sans: 'Oswald, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji"'
-        },
         extend: {
+            fontFamily: {
+                sans: ['Oswald', ...fontFamily.sans]
+            },
             colors: {
                 red: {
                     ...colors.red,
@@ -19,9 +19,10 @@ module.exports = {
                 facebook: '#4267b2',
                 instagram: '#d62976',
                 youtube: '#f00',
+                twitch: '#772ce8',
             }
         },
     },
-    variants: {},
     plugins: [],
-};
+}
+

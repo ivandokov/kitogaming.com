@@ -1,21 +1,9 @@
 {
-  "name": "kitogaming",
-  "version": "1.0.0",
-  "description": "kitogaming.com",
-  "author": "Ivan Dokov",
-  "private": true,
   "scripts": {
-    "dev": "nuxt",
-    "build": "nuxt build",
-    "start": "nuxt start",
-    "generate": "nuxt generate"
-  },
-  "dependencies": {
-    "nuxt": "^2.14.7",
-    "three": "^0.125.0"
+    "build": "npx tailwindcss -i ./app.css -o ./assets/app.css",
+    "dev": "npm run build -- --watch"
   },
   "devDependencies": {
-    "@nuxtjs/google-analytics": "^2.4.0",
-    "@nuxtjs/tailwindcss": "^1.4.1"
+    "tailwindcss": "^3.4.1"
   }
 }
